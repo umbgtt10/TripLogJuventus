@@ -1,0 +1,12 @@
+D:\Repository2\TripLogJuventus\TripLog\TripLog\bin\Debug\netstandard2.0\TripLog.deps.json
+D:\Repository2\TripLogJuventus\TripLog\TripLog\bin\Debug\netstandard2.0\TripLog.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog\bin\Debug\netstandard2.0\TripLog.pdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.csprojAssemblyReference.cache
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.csproj.CoreCompileInputs.cache
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.AssemblyInfoInputs.cache
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.AssemblyInfo.cs
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.pdb
