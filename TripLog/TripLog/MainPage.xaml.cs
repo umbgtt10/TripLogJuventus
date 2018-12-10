@@ -53,14 +53,15 @@ namespace TripLog
         public void New_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new NewEntryPage());
-
         }
 
-        public void Trips_ItemTapped(object sender, TripLogEntry entry)
+        async void Trips_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            var trip = (TripLogEntry)e.Item;
+            await Navigation.PushAsync(new DetailPage(trip));
 
+            // Clear selection
+            trips.SelectedItem = null;
         }
     }
-
-
 }

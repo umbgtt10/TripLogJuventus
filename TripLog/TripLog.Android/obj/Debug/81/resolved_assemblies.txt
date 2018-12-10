@@ -28,9 +28,15 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\asse
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.Android.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Base.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Basement.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Maps.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Tasks.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll

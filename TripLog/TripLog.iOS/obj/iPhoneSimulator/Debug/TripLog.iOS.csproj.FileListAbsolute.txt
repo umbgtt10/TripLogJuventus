@@ -55,4 +55,5 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\Xam
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\TripLog.iOS.csproj.CopyComplete
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\TripLog.iOS.exe
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\TripLog.iOS.pdb
-D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\TripLog.dll.mdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
