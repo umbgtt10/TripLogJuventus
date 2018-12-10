@@ -1,7 +1,5 @@
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\TripLog.Android.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\TripLog.Android.pdb
-D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\com.companyname.TripLog.apk
-D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\com.companyname.TripLog-Signed.apk
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\TripLog.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\TripLog.pdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
@@ -14,7 +12,6 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\XamlC.stamp
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\TripLog.Android.csproj.CopyComplete
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\TripLog.Android.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\TripLog.Android.pdb
-D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\bin\com.companyname.TripLog.apk
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\res\layout\tabbar.xml
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\res\layout\toolbar.xml
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\res\values\styles.xml
@@ -102,4 +99,6 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\asse
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\linksrc\TripLog.dll.mdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\triplog.android.apk
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\triplog.android-Signed.apk
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\bin\triplog.android.apk
