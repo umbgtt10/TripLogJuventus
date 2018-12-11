@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TripLog.Models;
+using TripLog.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
@@ -13,11 +14,22 @@ namespace TripLog.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DetailPage : ContentPage
 	{
-		public DetailPage (TripLogEntry entry)
+
+        private DetailViewModel _vm
+        {
+            get
+            {
+                return BindingContext as DetailViewModel;
+            }
+        }
+
+        public DetailPage (TripLogEntry entry)
 		{
 			InitializeComponent();
 
-            var position = new Position(entry.Latitude, entry.Longitude);
+            BindingContext = new DetailViewModel(entry);
+
+            var position = new Position(_vm.Entry.Latitude, _vm.Entry.Longitude);
 
             map.MoveToRegion(MapSpan.FromCenterAndRadius(position, Distance.FromMiles(.5)));
 
@@ -28,10 +40,10 @@ namespace TripLog.Views
                 Position = position
             });
 
-            title.Text = entry.Title;
-            date.Text = entry.Date.ToString("M");
-            rating.Text = $"{entry.Rating} star rating";
-            notes.Text = entry.Notes;
+            //title.Text = entry.Title;
+            //date.Text = entry.Date.ToString("M");
+            //rating.Text = $"{entry.Rating} star rating";
+            //notes.Text = entry.Notes;
         }
 	}
 }
