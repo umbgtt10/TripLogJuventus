@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using TripLog.Models;
 using Xamarin.Forms;
 
-namespace TripLog
+namespace TripLog.Views
 {
     public partial class MainPage : ContentPage
     {

@@ -8,7 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
-namespace TripLog
+namespace TripLog.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DetailPage : ContentPage
