@@ -176,6 +176,8 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Xamarin.Forms.C
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Xamarin.Forms.Maps.UWP.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Xamarin.Forms.Maps.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\TripLog.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\TripLog.pdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\TripLog.UWP.csprojAssemblyReference.cache
@@ -297,7 +299,5 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\qualifiers.txt
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
-D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\ProjectArchitectures.txt
-D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Xamarin.Forms.Maps.UWP.dll
-D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Xamarin.Forms.Maps.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\Xamarin.Forms.Maps.UWP.pri.xml
+D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\ProjectArchitectures.txt

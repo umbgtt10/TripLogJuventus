@@ -17,13 +17,15 @@ namespace TripLog
 		{
 			InitializeComponent();
 
-            map.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(entry.Latitude, entry.Longitude), Distance.FromMiles(.5)));
+            var position = new Position(entry.Latitude, entry.Longitude);
+
+            map.MoveToRegion(MapSpan.FromCenterAndRadius(position, Distance.FromMiles(.5)));
 
             map.Pins.Add(new Pin
             {
                 Type = PinType.Place,
                 Label = entry.Title,
-                Position = new Position(entry.Latitude, entry.Longitude)
+                Position = position
             });
 
             title.Text = entry.Title;

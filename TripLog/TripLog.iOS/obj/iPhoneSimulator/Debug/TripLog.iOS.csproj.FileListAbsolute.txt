@@ -41,6 +41,8 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\vi\
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\TripLog.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\TripLog.pdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
@@ -55,5 +57,3 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\Xam
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\TripLog.iOS.csproj.CopyComplete
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\TripLog.iOS.exe
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\TripLog.iOS.pdb
-D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
-D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll

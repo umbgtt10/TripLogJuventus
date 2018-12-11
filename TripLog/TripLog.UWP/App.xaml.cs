@@ -50,7 +50,7 @@ namespace TripLog.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                Xamarin.FormsMaps.Init();
+                Xamarin.FormsMaps.Init("Add your authentication token here!!!!!");
                 Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
