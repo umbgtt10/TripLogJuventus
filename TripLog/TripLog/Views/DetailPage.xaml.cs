@@ -23,12 +23,9 @@ namespace TripLog.Views
             }
         }
 
-        public DetailPage (TripLogEntry entry)
+        public DetailPage (BaseViewModel viewModel)
 		{
 			InitializeComponent();
-
-            var viewModel = new DetailViewModel();
-            viewModel.Init(entry);
 
             BindingContext = viewModel;
 
@@ -39,7 +36,7 @@ namespace TripLog.Views
             map.Pins.Add(new Pin
             {
                 Type = PinType.Place,
-                Label = entry.Title,
+                Label = _vm.Entry.Title,
                 Position = position
             });
 

@@ -12,19 +12,11 @@ namespace TripLog.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class NewEntryPage : ContentPage
 	{
-		public NewEntryPage ()
+		public NewEntryPage (BaseViewModel viewModel)
 		{
 			InitializeComponent ();
 
-            var viewModel = new NewEntryViewModel();
-            viewModel.Init();
-
             BindingContext = viewModel;
-        }
-
-        private void Save(object sender, EventArgs e)
-        {
-
         }
 	}
 }

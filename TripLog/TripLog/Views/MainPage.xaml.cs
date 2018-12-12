@@ -11,25 +11,33 @@ namespace TripLog.Views
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public MainPage(BaseViewModel viewModel)
         {
             InitializeComponent();
-
-            var viewModel = new MainViewModel();
-            viewModel.Init();
 
             BindingContext = viewModel;
         }
 
         public void New_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new NewEntryPage());
+            var viewModel = new NewEntryViewModel();
+            viewModel.Init();
+
+            var newEntryPage = new NewEntryPage(viewModel);
+
+            Navigation.PushAsync(newEntryPage);
         }
 
         async void Trips_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var trip = (TripLogEntry)e.Item;
-            await Navigation.PushAsync(new DetailPage(trip));
+
+            var viewModel = new DetailViewModel();
+            viewModel.Init(trip);
+
+            var detailPage = new DetailPage(viewModel);
+
+            await Navigation.PushAsync(detailPage);
 
             // Clear selection
             trips.SelectedItem = null;

@@ -1,4 +1,5 @@
 ﻿using System;
+using TripLog.ViewModels;
 using TripLog.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,7 +13,12 @@ namespace TripLog
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            var viewModel = new MainViewModel();
+            viewModel.Init();
+
+            var mainPage = new MainPage(viewModel);
+
+            MainPage = new NavigationPage(mainPage);
         }
 
         protected override void OnStart()

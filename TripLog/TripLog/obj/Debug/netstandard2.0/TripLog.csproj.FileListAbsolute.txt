@@ -11,3 +11,4 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.
 D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.pdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.csprojAssemblyReference.cache
