@@ -26,6 +26,11 @@ namespace TripLog.ViewModels
 
         public MainViewModel()
         {
+
+        }
+
+        public override void Init()
+        {
             LogEntries = new ObservableCollection<TripLogEntry>();
 
             // Add hard-coded entries here
@@ -61,6 +66,11 @@ namespace TripLog.ViewModels
             LogEntries.Add(item1);
             LogEntries.Add(item2);
             LogEntries.Add(item3);
+        }
+
+        public override void Init(TripLogEntry entry)
+        {
+            throw new NotImplementedException();
         }
     }
 }

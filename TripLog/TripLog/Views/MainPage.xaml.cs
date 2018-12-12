@@ -15,7 +15,10 @@ namespace TripLog.Views
         {
             InitializeComponent();
 
-            BindingContext = new MainViewModel();
+            var viewModel = new MainViewModel();
+            viewModel.Init();
+
+            BindingContext = viewModel;
         }
 
         public void New_Clicked(object sender, EventArgs e)

@@ -16,8 +16,11 @@ namespace TripLog.Views
 		{
 			InitializeComponent ();
 
-            BindingContext = new NewEntryViewModel();
-		}
+            var viewModel = new NewEntryViewModel();
+            viewModel.Init();
+
+            BindingContext = viewModel;
+        }
 
         private void Save(object sender, EventArgs e)
         {

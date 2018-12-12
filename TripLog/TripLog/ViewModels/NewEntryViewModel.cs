@@ -99,8 +99,18 @@ namespace TripLog.ViewModels
 
         public NewEntryViewModel()
         {
+
+        }
+
+        public override void Init()
+        {
             Date = DateTime.Today;
             Rating = 1;
+        }
+
+        public override void Init(TripLogEntry entry)
+        {
+            throw new NotImplementedException();
         }
     }
 }

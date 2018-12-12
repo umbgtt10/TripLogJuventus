@@ -27,7 +27,10 @@ namespace TripLog.Views
 		{
 			InitializeComponent();
 
-            BindingContext = new DetailViewModel(entry);
+            var viewModel = new DetailViewModel();
+            viewModel.Init(entry);
+
+            BindingContext = viewModel;
 
             var position = new Position(_vm.Entry.Latitude, _vm.Entry.Longitude);
 
