@@ -6,34 +6,30 @@ namespace TripLog.Test
     [TestClass]
     public class ViewModelFactoryTests
     {
+        private static ViewModelFactory ViewModelFactory = new ViewModelFactory();
+
         [TestMethod]
-        public void TestMainViewModelFactoryCreation()
+        public void MainViewModelCreationTest()
         {
-            var viewModelFactory = new ViewModelFactory();
+            var viewModel = ViewModelFactory.Build(TripLogViewModelType.Main);
 
-            var instance = viewModelFactory.Build(TripLogViewModelType.Main);
-
-            Assert.IsTrue(instance is MainViewModel);
+            Assert.IsInstanceOfType(viewModel, typeof(MainViewModel));
         }
 
         [TestMethod]
-        public void TestDetailViewModelFactoryCreation()
+        public void NewEntryViewModelCreationTest()
         {
-            var viewModelFactory = new ViewModelFactory();
+            var viewModel = ViewModelFactory.Build(TripLogViewModelType.New);
 
-            var instance = viewModelFactory.Build(TripLogViewModelType.Detail);
-
-            Assert.IsTrue(instance is DetailViewModel);
+            Assert.IsInstanceOfType(viewModel, typeof(NewEntryViewModel));
         }
 
         [TestMethod]
-        public void TestNewEntryViewModelFactoryCreation()
+        public void DetailViewModelCreationTest()
         {
-            var viewModelFactory = new ViewModelFactory();
+            var viewModel = ViewModelFactory.Build(TripLogViewModelType.Detail);
 
-            var instance = viewModelFactory.Build(TripLogViewModelType.New);
-
-            Assert.IsTrue(instance is NewEntryViewModel);
+            Assert.IsInstanceOfType(viewModel, typeof(DetailViewModel));
         }
     }
 }

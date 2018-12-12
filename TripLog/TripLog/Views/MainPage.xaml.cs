@@ -11,16 +11,20 @@ namespace TripLog.Views
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage(BaseViewModel viewModel)
+        private ViewModelFactory _viewModelFactory;
+
+        public MainPage(ViewModelFactory viewModelFactory, BaseViewModel viewModel)
         {
             InitializeComponent();
+
+            _viewModelFactory = viewModelFactory;
 
             BindingContext = viewModel;
         }
 
         public void New_Clicked(object sender, EventArgs e)
         {
-            var viewModel = new NewEntryViewModel();
+            var viewModel = _viewModelFactory.Build(TripLogViewModelType.New);
             viewModel.Init();
 
             var newEntryPage = new NewEntryPage(viewModel);
@@ -32,7 +36,7 @@ namespace TripLog.Views
         {
             var trip = (TripLogEntry)e.Item;
 
-            var viewModel = new DetailViewModel();
+            var viewModel = _viewModelFactory.Build(TripLogViewModelType.Detail);
             viewModel.Init(trip);
 
             var detailPage = new DetailPage(viewModel);
