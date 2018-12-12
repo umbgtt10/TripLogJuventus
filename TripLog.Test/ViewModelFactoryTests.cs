@@ -6,12 +6,12 @@ namespace TripLog.Test
     [TestClass]
     public class ViewModelFactoryTests
     {
-        private static ViewModelFactory ViewModelFactory = new ViewModelFactory();
+        public static ViewModelFactory ViewModelFactory = new ViewModelFactory();
 
         [TestMethod]
         public void MainViewModelCreationTest()
         {
-            var viewModel = ViewModelFactory.Build(TripLogViewModelType.Main);
+            var viewModel = ViewModelFactory.Build(ViewType.Main);
 
             Assert.IsInstanceOfType(viewModel, typeof(MainViewModel));
         }
@@ -19,7 +19,7 @@ namespace TripLog.Test
         [TestMethod]
         public void NewEntryViewModelCreationTest()
         {
-            var viewModel = ViewModelFactory.Build(TripLogViewModelType.New);
+            var viewModel = ViewModelFactory.Build(ViewType.New);
 
             Assert.IsInstanceOfType(viewModel, typeof(NewEntryViewModel));
         }
@@ -27,7 +27,7 @@ namespace TripLog.Test
         [TestMethod]
         public void DetailViewModelCreationTest()
         {
-            var viewModel = ViewModelFactory.Build(TripLogViewModelType.Detail);
+            var viewModel = ViewModelFactory.Build(ViewType.Detail);
 
             Assert.IsInstanceOfType(viewModel, typeof(DetailViewModel));
         }

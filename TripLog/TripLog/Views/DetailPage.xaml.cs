@@ -13,7 +13,7 @@ namespace TripLog.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DetailPage : ContentPage
-	{
+    {
 
         private DetailViewModel _vm
         {
@@ -23,7 +23,7 @@ namespace TripLog.Views
             }
         }
 
-        public DetailPage (BaseViewModel viewModel)
+        public DetailPage(BaseViewModel viewModel)
 		{
 			InitializeComponent();
 
@@ -39,11 +39,6 @@ namespace TripLog.Views
                 Label = _vm.Entry.Title,
                 Position = position
             });
-
-            //title.Text = entry.Title;
-            //date.Text = entry.Date.ToString("M");
-            //rating.Text = $"{entry.Rating} star rating";
-            //notes.Text = entry.Notes;
         }
-	}
+    }
 }

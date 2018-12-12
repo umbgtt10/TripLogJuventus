@@ -10,17 +10,22 @@ namespace TripLog
     public partial class App : Application
     {
         private ViewModelFactory _viewModelFactory;
+        private ViewFactory _viewFactory;
+        private CombinedFactory _combinedFactory;
 
         public App()
         {
             InitializeComponent();
 
             _viewModelFactory = new ViewModelFactory();
+            _viewFactory = new ViewFactory(_viewModelFactory);
+            _combinedFactory = new CombinedFactory(_viewFactory, _viewModelFactory);
 
-            var viewModel = _viewModelFactory.Build(TripLogViewModelType.Main);
+            var viewModel = _viewModelFactory.Build(ViewType.Main);
             viewModel.Init();
 
-            var mainPage = new MainPage(_viewModelFactory, viewModel);
+            var mainPage = new MainPage(viewModel);
+            mainPage.Init(_combinedFactory);
 
             MainPage = new NavigationPage(mainPage);
         }
