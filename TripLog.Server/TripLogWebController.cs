@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -14,19 +15,26 @@ namespace TripLog.Server.Controllers
 
         public TripLogWebController()
         {
-            _persistency = new DbreezeTripLogPersistency();
+            _persistency = new DbreezeTripLogPersistency(new DirectoryInfo(@"C:\WebServer\Persistency"));
+            _persistency.Setup();
         }
 
         // GET api/TripLogWeb
         public IEnumerable<TripLogEntry> Get()
         {
-            return _persistency.GetAll();
+            var results = _persistency.GetAll();
+
+            _persistency.Dispose();
+
+            return results;
         }
 
         // POST api/TripLogWeb
         public void Post([FromBody]TripLogEntry value)
         {
             _persistency.Add(value);
+
+            _persistency.Dispose();
         }
 
         // GET api/TripLogWeb/5
