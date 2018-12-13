@@ -12,7 +12,8 @@
           "NETStandard.Library": "2.0.3",
           "Portable.Ninject": "3.3.1",
           "Xamarin.Forms": "3.4.0.1008975",
-          "Xamarin.Forms.Maps": "3.4.0.1008975"
+          "Xamarin.Forms.Maps": "3.4.0.1008975",
+          "Newtonsoft.Json": "9.0.0.0"
         },
         "runtime": {
           "TripLog.dll": {}
@@ -62,6 +63,14 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Newtonsoft.Json/9.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.19813"
+          }
+        }
       }
     }
   },
@@ -105,6 +114,11 @@
       "sha512": "sha512-XqMqivFWe9n5xoT3MuUG1s9sKe5tGpWdnHSarurxS2pSWRK0vuzWHdIBIUxJbe/nPSeAUzOI4HuvtHBhixxrbQ==",
       "path": "xamarin.forms.maps/3.4.0.1008975",
       "hashPath": "xamarin.forms.maps.3.4.0.1008975.nupkg.sha512"
+    },
+    "Newtonsoft.Json/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -11,3 +11,7 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.
 D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.pdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.csprojAssemblyReference.cache
+D:\Repository2\TripLogJuventus\TripLog\TripLog\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+D:\Repository2\TripLogJuventus\TripLog\TripLog\obj\Debug\netstandard2.0\TripLog.csproj.CopyComplete
