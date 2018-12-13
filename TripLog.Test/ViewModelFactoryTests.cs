@@ -1,12 +1,30 @@
+using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using TripLog.Models;
+using TripLog.Services;
 using TripLog.ViewModels;
 
 namespace TripLog.Test
 {
+    public class MockedGeoLocationService : GeoLocationService
+    {
+        public Task<GeoCoords> PullCoordinatesAsync()
+        {
+            return new Task<GeoCoords>(Get);
+        }
+
+        public GeoCoords Get()
+        {
+            return new GeoCoords();
+        }
+    }
+
     [TestClass]
     public class ViewModelFactoryTests
     {
-        public static ViewModelFactory ViewModelFactory = new ViewModelFactory();
+        public static Mock<GeoLocationService> MockedGeoLocationService = new Mock<GeoLocationService>();
+        public static ViewModelFactory ViewModelFactory = new ViewModelFactory(MockedGeoLocationService.Object);
 
         [TestMethod]
         public void MainViewModelCreationTest()

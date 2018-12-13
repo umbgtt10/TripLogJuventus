@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "TripLog.Android.dll" comes first in this list. */
 		"TripLog.Android.dll",
 		"FormsViewGroup.dll",
+		"Ninject.dll",
 		"TripLog.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

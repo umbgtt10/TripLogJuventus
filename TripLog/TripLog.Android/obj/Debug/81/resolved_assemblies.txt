@@ -3,6 +3,7 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\asse
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Java.Interop.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Mono.Android.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\mscorlib.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Ninject.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.Core.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\System.Xml.dll

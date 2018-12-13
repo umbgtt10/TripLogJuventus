@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Portable.Ninject/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid/Ninject.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -435,6 +444,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Portable.Ninject": "3.3.1",
           "Xamarin.Forms": "3.4.0.1008975",
           "Xamarin.Forms.Maps": "3.4.0.1008975"
         },
@@ -448,6 +458,37 @@
     }
   },
   "libraries": {
+    "Portable.Ninject/3.3.1": {
+      "sha512": "hq+v/D/rxNSStlfV0hVlfIQKVEbj2AsZKcuuUqqPpOnuD6HSl4ku3fvgQ7u6ffAh6ZwHUBG3pdP7PS+eb+Kumw==",
+      "type": "package",
+      "path": "portable.ninject/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Wpa81/Ninject.dll",
+        "lib/Wpa81/Ninject.pri",
+        "lib/Wpa81/Ninject.xml",
+        "lib/Xamarin.iOS/Ninject.dll",
+        "lib/Xamarin.iOS/Ninject.xml",
+        "lib/monoandroid/Ninject.dll",
+        "lib/monoandroid/Ninject.xml",
+        "lib/monotouch/Ninject.dll",
+        "lib/monotouch/Ninject.xml",
+        "lib/net40-client/Ninject.dll",
+        "lib/net40-client/Ninject.xml",
+        "lib/portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid+Xamarin.iOS/Ninject.dll",
+        "lib/portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid+Xamarin.iOS/Ninject.xml",
+        "lib/sl5/Ninject.dll",
+        "lib/sl5/Ninject.xml",
+        "lib/win8/Ninject.dll",
+        "lib/win8/Ninject.pri",
+        "lib/win8/Ninject.xml",
+        "lib/wp8/Ninject.dll",
+        "lib/wp8/Ninject.xml",
+        "portable.ninject.3.3.1.nupkg.sha512",
+        "portable.ninject.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "skWc2Kobu11hCiH1WM2Hh77ftO8QQNn423jFDqz3alvfrPUMRS0PoP5N1FW/Hq+y36/qrFoBp2Z/FNliJ2yI1A==",
       "type": "package",
@@ -979,6 +1020,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Portable.Ninject >= 3.3.1",
       "TripLog >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
@@ -1025,6 +1067,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Portable.Ninject": {
+            "target": "Package",
+            "version": "[3.3.1, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[27.0.2.1, )"

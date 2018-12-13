@@ -26,6 +26,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Portable.Ninject/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/net40-client/Ninject.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -201,6 +210,37 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Portable.Ninject/3.3.1": {
+      "sha512": "hq+v/D/rxNSStlfV0hVlfIQKVEbj2AsZKcuuUqqPpOnuD6HSl4ku3fvgQ7u6ffAh6ZwHUBG3pdP7PS+eb+Kumw==",
+      "type": "package",
+      "path": "portable.ninject/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Wpa81/Ninject.dll",
+        "lib/Wpa81/Ninject.pri",
+        "lib/Wpa81/Ninject.xml",
+        "lib/Xamarin.iOS/Ninject.dll",
+        "lib/Xamarin.iOS/Ninject.xml",
+        "lib/monoandroid/Ninject.dll",
+        "lib/monoandroid/Ninject.xml",
+        "lib/monotouch/Ninject.dll",
+        "lib/monotouch/Ninject.xml",
+        "lib/net40-client/Ninject.dll",
+        "lib/net40-client/Ninject.xml",
+        "lib/portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid+Xamarin.iOS/Ninject.dll",
+        "lib/portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid+Xamarin.iOS/Ninject.xml",
+        "lib/sl5/Ninject.dll",
+        "lib/sl5/Ninject.xml",
+        "lib/win8/Ninject.dll",
+        "lib/win8/Ninject.pri",
+        "lib/win8/Ninject.xml",
+        "lib/wp8/Ninject.dll",
+        "lib/wp8/Ninject.xml",
+        "portable.ninject.3.3.1.nupkg.sha512",
+        "portable.ninject.nuspec"
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {
@@ -385,6 +425,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Portable.Ninject >= 3.3.1",
       "Xamarin.Forms >= 3.4.0.1008975",
       "Xamarin.Forms.Maps >= 3.4.0.1008975"
     ]
@@ -436,6 +477,10 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "Portable.Ninject": {
+            "target": "Package",
+            "version": "[3.3.1, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.4.0.1008975, )"
@@ -452,5 +497,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Portable.Ninject 3.3.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Portable.Ninject",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

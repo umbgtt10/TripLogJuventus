@@ -1,12 +1,15 @@
 ﻿using System;
+using TripLog.Services;
 
 namespace TripLog.ViewModels
 {
     public class ViewModelFactory
     {
-        public ViewModelFactory()
-        {
+        private GeoLocationService _locationService;
 
+        public ViewModelFactory(GeoLocationService locationService)
+        {
+            _locationService = locationService;
         }
 
         public BaseViewModel Build(ViewType viewModelType)
@@ -18,7 +21,7 @@ namespace TripLog.ViewModels
                 case ViewType.Main:
                     return new MainViewModel();
                 case ViewType.New:
-                    return new NewEntryViewModel();
+                    return new NewEntryViewModel(_locationService);
                 default:
                     throw new Exception($"Unknown {viewModelType}");
             }

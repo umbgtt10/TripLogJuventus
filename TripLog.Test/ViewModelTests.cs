@@ -54,7 +54,7 @@ namespace TripLog.Test
         [ExpectedException(typeof(NotImplementedException))]
         public void NewEntryViewModelInitializationThrowsTest()
         {
-            var viewModel = new NewEntryViewModel();
+            var viewModel = new NewEntryViewModel(ViewModelFactoryTests.MockedGeoLocationService.Object);
 
             var entry = new TripLogEntry();
 
@@ -64,7 +64,7 @@ namespace TripLog.Test
         [TestMethod]        
         public void NewEntryViewModelInitializationOkTest()
         {
-            var viewModel = new NewEntryViewModel();
+            var viewModel = new NewEntryViewModel(ViewModelFactoryTests.MockedGeoLocationService.Object);
 
             viewModel.Init();
 

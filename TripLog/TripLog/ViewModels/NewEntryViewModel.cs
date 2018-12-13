@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using TripLog.Models;
+using TripLog.Services;
 using Xamarin.Forms;
 
 namespace TripLog.ViewModels
@@ -96,16 +97,22 @@ namespace TripLog.ViewModels
 
         #endregion
 
+        private GeoLocationService _locationService;
 
-        public NewEntryViewModel()
+        public NewEntryViewModel(GeoLocationService locationService)
         {
-
+            _locationService = locationService;
         }
 
-        public override void Init()
+        public async override void Init()
         {
             Date = DateTime.Today;
             Rating = 1;
+
+            var coords = await _locationService.PullCoordinatesAsync();
+
+            Longitude = coords.Longitude;
+            Latitude = coords.Latitude;
         }
 
         public override void Init(TripLogEntry entry)

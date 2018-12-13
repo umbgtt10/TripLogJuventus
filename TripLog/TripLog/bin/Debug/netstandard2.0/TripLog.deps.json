@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "8b8ce200b8c7939d15e6e769908ff35283cde765"
+    "signature": "b22bdd28a9ea825532bc721c18a0a0262ae8aeb2"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "TripLog/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Portable.Ninject": "3.3.1",
           "Xamarin.Forms": "3.4.0.1008975",
           "Xamarin.Forms.Maps": "3.4.0.1008975"
         },
@@ -21,6 +22,14 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Portable.Ninject/3.3.1": {
+        "runtime": {
+          "lib/net40-client/Ninject.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.3.0.0"
+          }
         }
       },
       "Xamarin.Forms/3.4.0.1008975": {
@@ -75,6 +84,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Portable.Ninject/3.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hq+v/D/rxNSStlfV0hVlfIQKVEbj2AsZKcuuUqqPpOnuD6HSl4ku3fvgQ7u6ffAh6ZwHUBG3pdP7PS+eb+Kumw==",
+      "path": "portable.ninject/3.3.1",
+      "hashPath": "portable.ninject.3.3.1.nupkg.sha512"
     },
     "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",
