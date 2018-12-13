@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DBreeze, Version=1.92.2018.1029, Culture=neutral, PublicKeyToken=174b57f1c155f3c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\DBreeze.1.92.0\lib\net47\DBreeze.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -129,6 +132,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbreezeTripLogPersistency.cs" />
+    <Compile Include="TripLogPersistency.cs" />
     <Compile Include="WebApiConfig.cs" />
     <Compile Include="TripLogWebController.cs" />
     <Compile Include="Global.asax.cs">
@@ -146,7 +151,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\TripLog\TripLog\TripLog.csproj">
+      <Project>{F22FB2E0-FEF3-4F50-9FC4-C1B3548CCE00}</Project>
+      <Name>TripLog</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />

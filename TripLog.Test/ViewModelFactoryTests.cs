@@ -6,9 +6,7 @@ namespace TripLog.Test
 {
     [TestClass]
     public class ViewModelFactoryTests
-    {
-        
-
+    {        
         [TestMethod]
         public void MainViewModelCreationTest()
         {
