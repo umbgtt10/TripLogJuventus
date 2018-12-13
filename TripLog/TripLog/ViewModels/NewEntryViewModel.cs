@@ -80,7 +80,7 @@ namespace TripLog.ViewModels
             return !string.IsNullOrEmpty(Title);
         }
 
-        private void ExecuteSaveCommand(object obj)
+        private async void ExecuteSaveCommand(object obj)
         {
             var newEntry = new TripLogEntry
             {
@@ -93,15 +93,19 @@ namespace TripLog.ViewModels
             };
 
             // Save this new entry later: Introduce a data layer.
+
+            await _tripLogDataService.AddEntryAsync(newEntry);
         }
 
         #endregion
 
         private GeoLocationService _locationService;
+        private TripLogDataService _tripLogDataService;
 
-        public NewEntryViewModel(GeoLocationService locationService)
+        public NewEntryViewModel(GeoLocationService locationService, TripLogDataService tripLogDataService)
         {
             _locationService = locationService;
+            _tripLogDataService = tripLogDataService;
         }
 
         public async override void Init()

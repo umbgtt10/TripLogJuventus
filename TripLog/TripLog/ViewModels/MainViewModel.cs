@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using TripLog.Models;
+using TripLog.Services;
 
 namespace TripLog.ViewModels
 {
@@ -24,14 +25,17 @@ namespace TripLog.ViewModels
 
         #endregion
 
-        public MainViewModel()
-        {
+        private TripLogDataService _tripLogDataService;
 
+        public MainViewModel(TripLogDataService tripLogDataService)
+        {
+            _tripLogDataService = tripLogDataService;
         }
 
-        public override void Init()
+        public async override void Init()
         {
-            LogEntries = new ObservableCollection<TripLogEntry>();
+            LogEntries = new ObservableCollection<TripLogEntry>(
+              await _tripLogDataService.ReadAllEntriesAsync());
 
             // Add hard-coded entries here
 
@@ -65,7 +69,7 @@ namespace TripLog.ViewModels
 
             LogEntries.Add(item1);
             LogEntries.Add(item2);
-            LogEntries.Add(item3);
+            LogEntries.Add(item3);                        
         }
 
         public override void Init(TripLogEntry entry)

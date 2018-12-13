@@ -26,7 +26,8 @@ namespace TripLog
 
             var locationService = _kernel.Get<GeoLocationService>();
 
-            _viewModelFactory = new ViewModelFactory(locationService);
+            // TODO: Provide an implementation 
+            _viewModelFactory = new ViewModelFactory(locationService, new RestTripLogDataService());
             _viewFactory = new ViewFactory(_viewModelFactory);
             _combinedFactory = new CombinedFactory(_viewFactory, _viewModelFactory);
 

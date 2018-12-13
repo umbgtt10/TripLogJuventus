@@ -12,7 +12,7 @@ namespace TripLog.Test
         [ExpectedException(typeof(NotImplementedException))]
         public void MainViewModelInitializationThrowsTest()
         {
-            var viewModel = new MainViewModel();
+            var viewModel = new MainViewModel(TestInit.MockedTripLogDataService.Object);
 
             var entry = new TripLogEntry();
 
@@ -22,11 +22,11 @@ namespace TripLog.Test
         [TestMethod]
         public void MainViewModelInitializationOkTest()
         {
-            var viewModel = new MainViewModel();
+            var viewModel = new MainViewModel(TestInit.MockedTripLogDataService.Object);
 
             viewModel.Init();
 
-            Assert.AreEqual(3, viewModel.LogEntries.Count);
+            Assert.AreEqual(4, viewModel.LogEntries.Count);
         }
 
         [TestMethod]
@@ -54,7 +54,7 @@ namespace TripLog.Test
         [ExpectedException(typeof(NotImplementedException))]
         public void NewEntryViewModelInitializationThrowsTest()
         {
-            var viewModel = new NewEntryViewModel(ViewModelFactoryTests.MockedGeoLocationService.Object);
+            var viewModel = new NewEntryViewModel(TestInit.MockedGeoLocationService.Object, TestInit.MockedTripLogDataService.Object);
 
             var entry = new TripLogEntry();
 
@@ -64,7 +64,7 @@ namespace TripLog.Test
         [TestMethod]        
         public void NewEntryViewModelInitializationOkTest()
         {
-            var viewModel = new NewEntryViewModel(ViewModelFactoryTests.MockedGeoLocationService.Object);
+            var viewModel = new NewEntryViewModel(TestInit.MockedGeoLocationService.Object, TestInit.MockedTripLogDataService.Object);
 
             viewModel.Init();
 
