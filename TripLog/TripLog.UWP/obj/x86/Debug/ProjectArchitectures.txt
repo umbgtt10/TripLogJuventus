@@ -1,1 +1,0 @@
-D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\TripLog.UWP.csproj;x86
