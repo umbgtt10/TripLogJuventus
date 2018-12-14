@@ -60,5 +60,10 @@ namespace TripLog.Models
 
             return instance.Id.Equals(Id);
         }
+
+        public override int GetHashCode()
+        {
+            return 2108858624 + EqualityComparer<string>.Default.GetHashCode(Id);
+        }
     }
 }

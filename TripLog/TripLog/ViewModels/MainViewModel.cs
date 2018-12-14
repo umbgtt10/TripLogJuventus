@@ -29,7 +29,7 @@ namespace TripLog.ViewModels
 
         public MainViewModel(TripLogDataService tripLogDataService)
         {
-            _tripLogDataService = tripLogDataService;
+            _tripLogDataService = tripLogDataService;            
         }
 
         public async override void Init()

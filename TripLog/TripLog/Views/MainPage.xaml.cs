@@ -12,12 +12,13 @@ namespace TripLog.Views
     public partial class MainPage : ContentPage
     {
         private CombinedFactory _combinedFactory;
+        private BaseViewModel _vm;
 
         public MainPage(BaseViewModel viewModel)
         {
             InitializeComponent();
-
-            BindingContext = viewModel;
+            _vm = viewModel;
+            BindingContext = _vm;
         }
 
         public void Init(CombinedFactory combinedFactory)
@@ -42,6 +43,11 @@ namespace TripLog.Views
 
             // Clear selection
             trips.SelectedItem = null;
+        }
+
+        protected override void OnAppearing()
+        {
+            _vm.Init();
         }
     }
 }
