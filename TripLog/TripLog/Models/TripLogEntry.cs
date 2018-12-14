@@ -48,5 +48,17 @@ namespace TripLog.Models
         {
             return JsonConvert.SerializeObject(entry);
         }
+
+        public override bool Equals(object obj)
+        {
+            if (!(obj is TripLogEntry))
+            {
+                return false;
+            }
+
+            var instance = (TripLogEntry)obj;
+
+            return instance.Id.Equals(Id);
+        }
     }
 }

@@ -58,3 +58,5 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\Tri
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\TripLog.iOS.exe
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\obj\iPhoneSimulator\Debug\TripLog.iOS.pdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Ninject.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.xml

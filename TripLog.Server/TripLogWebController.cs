@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -12,10 +11,13 @@ namespace TripLog.Server.Controllers
     public class TripLogWebController : ApiController
     {
         private TripLogPersistency _persistency;
+        private Environment _environment;
 
         public TripLogWebController()
         {
-            _persistency = new DbreezeTripLogPersistency(new DirectoryInfo(@"C:\WebServer\Persistency"));
+            _environment = Environment.Test;
+            _persistency = new TripLogPersistencyBuilder(new DirectoryInfo(@"C:\WebServer\Persistency")).
+                Build(_environment);
             _persistency.Setup();
         }
 
@@ -40,17 +42,33 @@ namespace TripLog.Server.Controllers
         // GET api/TripLogWeb/5
         public string Get(int id)
         {
-            return "value";
+            return "value"; // or exception
         }
 
         // PUT api/TripLogWeb/5
         public void Put(int id, [FromBody]string value)
         {
+            // Nothing or exception?
         }
 
         // DELETE api/TripLogWeb/5
         public void Delete(int id)
         {
+            // Nothing or exception?
+        }
+
+        public void Delete()
+        {
+            if (_environment == Environment.Test)
+            {
+                ((ExtendedDbreezeTripLogPersistency)_persistency).RemoveAll();
+
+                _persistency.Dispose();
+            }
+            else
+            {
+                // Nothing or exception?
+            }
         }
     }
 }

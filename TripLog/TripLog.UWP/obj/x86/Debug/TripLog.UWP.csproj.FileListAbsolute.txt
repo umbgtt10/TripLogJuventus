@@ -303,3 +303,5 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\Xamarin.Forms.M
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Ninject.dll
 D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\obj\x86\Debug\Ninject.pri.xml
+D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\bin\x86\Debug\Newtonsoft.Json.xml

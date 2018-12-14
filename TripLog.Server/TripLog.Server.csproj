@@ -133,7 +133,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbreezeTripLogPersistency.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="ExtendedDbreezeTripLogPersistency.cs" />
     <Compile Include="TripLogPersistency.cs" />
+    <Compile Include="TripLogPersistencyBuilder.cs" />
     <Compile Include="WebApiConfig.cs" />
     <Compile Include="TripLogWebController.cs" />
     <Compile Include="Global.asax.cs">

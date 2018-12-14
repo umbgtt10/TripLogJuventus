@@ -102,4 +102,11 @@ D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\asse
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\Newtonsoft.Json.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\Newtonsoft.Json.xml
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\Microsoft.CSharp.pdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\linksrc\Microsoft.CSharp.pdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\android\assets\Microsoft.CSharp.pdb
+D:\Repository2\TripLogJuventus\TripLog\TripLog\bin\Debug\netstandard2.0\TripLog.dll
+D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\bin\Debug\TripLog.dll.mdb
 D:\Repository2\TripLogJuventus\TripLog\TripLog.Android\obj\Debug\81\linksrc\TripLog.dll.mdb

@@ -544,6 +544,9 @@
     <AppxPackagedFile Include="D:\Repository2\TripLogJuventus\TripLog\TripLog\bin\Debug\netstandard2.0\TripLog.dll">
       <PackagePath>TripLog.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repository2\TripLogJuventus\TripLog\TripLog\bin\Debug\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Repository2\TripLogJuventus\TripLog\TripLog.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

@@ -92,8 +92,6 @@ namespace TripLog.ViewModels
                 Longitude = Longitude
             };
 
-            // Save this new entry later: Introduce a data layer.
-
             await _tripLogDataService.AddEntryAsync(newEntry);
         }
 

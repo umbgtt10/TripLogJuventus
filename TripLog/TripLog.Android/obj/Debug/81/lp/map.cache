@@ -32,3 +32,6 @@ Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Maps
 Xamarin.GooglePlayServices.Tasks
 netstandard
+Newtonsoft.Json
+System.Resources.ResourceManager
+System.Reflection.Extensions
