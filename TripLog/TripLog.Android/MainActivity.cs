@@ -1,18 +1,11 @@
-﻿using System;
-
-using Android.App;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Android.OS;
-using TripLog.Droid.Modules;
-using Android.Support.V4.Content;
-using Android.Support.V4.App;
-using Android;
-
-namespace TripLog.Droid
+﻿namespace TripLog.Droid
 {
+    using Android.App;
+    using Android.Content.PM;
+    using Android.OS;
+
+    using TripLog.Droid.Modules;
+
     [Activity(Label = "TripLog", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {

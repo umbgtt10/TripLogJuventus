@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text;
-using TripLog.Models;
-
-namespace TripLog.ViewModels
+﻿namespace TripLog.ViewModels
 {
+    using System.ComponentModel;
+    using System.Runtime.CompilerServices;
+
+    using TripLog.Models;
+
     public abstract class BaseViewModel : INotifyPropertyChanged
     {
         protected BaseViewModel()

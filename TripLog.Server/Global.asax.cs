@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
-using System.Web.Mvc;
-using System.Web.Optimization;
-using System.Web.Routing;
-
-namespace TripLog.Server
+﻿namespace TripLog.Server
 {
+    using System.Web;
+    using System.Web.Http;
+
     public class WebApiApplication : HttpApplication
     {
         protected void Application_Start()

@@ -1,10 +1,10 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TripLog.Models
+﻿namespace TripLog.Models
 {
+    using System;
+    using System.Collections.Generic;
+
+    using Newtonsoft.Json;
+
     public class TripLogEntry
     {
         public string Id { get; set; }

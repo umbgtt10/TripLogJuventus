@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TripLog.Models;
-using TripLog.ViewModels;
-using Xamarin.Forms;
-
-namespace TripLog.Views
+﻿namespace TripLog.Views
 {
+    using System;
+
+    using Xamarin.Forms;
+
+    using TripLog.Models;
+    using TripLog.ViewModels;
+
     public partial class MainPage : ContentPage
     {
         private CombinedFactory _combinedFactory;
@@ -41,7 +39,6 @@ namespace TripLog.Views
 
             await Navigation.PushAsync(detailPage);
 
-            // Clear selection
             trips.SelectedItem = null;
         }
 

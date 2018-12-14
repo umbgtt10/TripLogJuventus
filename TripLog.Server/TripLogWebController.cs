@@ -1,13 +1,11 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-using TripLog.Models;
-
-namespace TripLog.Server.Controllers
+﻿namespace TripLog.Server.Controllers
 {
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Web.Http;
+
+    using TripLog.Models;
+
     public class TripLogWebController : ApiController
     {
         private TripLogPersistency _persistency;

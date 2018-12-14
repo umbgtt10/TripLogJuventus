@@ -1,11 +1,13 @@
-﻿using DBreeze;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using TripLog.Models;
-
-namespace TripLog.Server
+﻿namespace TripLog.Server
 {
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+
+    using DBreeze;
+
+    using TripLog.Models;
+
     public class DbreezeTripLogPersistency : TripLogPersistency
     {
         protected string _tableName = "TripLogTable";

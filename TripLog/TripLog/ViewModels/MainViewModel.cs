@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using TripLog.Models;
-using TripLog.Services;
-
-namespace TripLog.ViewModels
+﻿namespace TripLog.ViewModels
 {
+    using System;
+    using System.Collections.ObjectModel;
+
+    using TripLog.Models;
+    using TripLog.Services;
+
     public class MainViewModel : BaseViewModel
     {
         #region Observables
@@ -36,8 +36,6 @@ namespace TripLog.ViewModels
         {
             LogEntries = new ObservableCollection<TripLogEntry>(
               await _tripLogDataService.ReadAllEntriesAsync());
-
-            // Add hard-coded entries here
 
             var item1 = new TripLogEntry
             {

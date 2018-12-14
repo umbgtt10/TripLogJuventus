@@ -1,15 +1,12 @@
-﻿using Ninject;
-using Ninject.Modules;
-using System;
-using TripLog.Services;
-using TripLog.ViewModels;
-using TripLog.Views;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace TripLog
 {
+    using Ninject.Modules;
+
+    using Xamarin.Forms;
+
     public partial class App : Application
     {
         public App(params NinjectModule[] platformModules)

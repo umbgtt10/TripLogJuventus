@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using TripLog.Models;
-
-namespace TripLog.ViewModels
+﻿namespace TripLog.ViewModels
 {
+    using System;
+
+    using TripLog.Models;
+
     public class DetailViewModel : BaseViewModel
     {
         #region Observables

@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TripLog.Models;
-using TripLog.ViewModels;
-using Xamarin.Forms;
-using Xamarin.Forms.Maps;
-using Xamarin.Forms.Xaml;
-
-namespace TripLog.Views
+﻿namespace TripLog.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+    using Xamarin.Forms;
+    using Xamarin.Forms.Maps;
+    using Xamarin.Forms.Xaml;
+
+    using TripLog.ViewModels;
+
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DetailPage : ContentPage
     {
 

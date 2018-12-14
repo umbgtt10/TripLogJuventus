@@ -1,10 +1,9 @@
-﻿using System;
-using System.Text;
-using System.Threading.Tasks;
-using TripLog.Models;
-
-namespace TripLog.Services
+﻿namespace TripLog.Services
 {
+    using System.Threading.Tasks;
+
+    using TripLog.Models;
+
     public interface GeoLocationService
     {
         Task<GeoCoords> PullCoordinatesAsync();

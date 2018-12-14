@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Threading.Tasks;
-using TripLog.Models;
-
-namespace TripLog.Services
+﻿namespace TripLog.Services
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Net.Http;
+    using System.Threading.Tasks;
+
+    using TripLog.Models;
+
     public class RestTripLogDataService : TripLogDataService
     {
         protected StandardAsyncHttpClient _httpClient;

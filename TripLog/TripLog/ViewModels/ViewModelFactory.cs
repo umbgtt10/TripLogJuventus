@@ -1,8 +1,9 @@
-﻿using System;
-using TripLog.Services;
-
-namespace TripLog.ViewModels
+﻿namespace TripLog.ViewModels
 {
+    using System;
+
+    using TripLog.Services;
+
     public class ViewModelFactory
     {
         private GeoLocationService _locationService;

@@ -1,13 +1,15 @@
-﻿using Ninject;
-using Ninject.Modules;
-using System;
-using TripLog.Services;
-using TripLog.ViewModels;
-using TripLog.Views;
-using Xamarin.Forms;
-
-namespace TripLog
+﻿namespace TripLog
 {
+    using System;
+
+    using Ninject;
+    using Ninject.Modules;
+    using Xamarin.Forms;
+
+    using TripLog.Services;
+    using TripLog.ViewModels;
+    using TripLog.Views;
+
     public class TripLogFactory
     {
         private ViewModelFactory _viewModelFactory;

@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using TripLog.ViewModels;
-using Xamarin.Forms;
-
-namespace TripLog.Views
+﻿namespace TripLog.Views
 {
+    using System;
+
+    using Xamarin.Forms;
+
+    using TripLog.ViewModels;
+
     public class ViewFactory
     {
         private readonly ViewModelFactory _viewModelFactory;
@@ -27,7 +27,6 @@ namespace TripLog.Views
                     return newEntryPage;
                 case ViewType.Detail:
                     var detailPage = new DetailPage(viewModel);
-                    // detailPage.Init();
                     return detailPage;
                     default:
                     throw new Exception($"Unknown {modelType}");

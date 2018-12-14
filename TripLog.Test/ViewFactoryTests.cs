@@ -1,10 +1,11 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TripLog.Models;
-using TripLog.ViewModels;
-using TripLog.Views;
-
 namespace TripLog.Test
 {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using TripLog.Models;
+    using TripLog.ViewModels;
+    using TripLog.Views;
+
     [TestClass]
     public class ViewFactoryTests
     {           

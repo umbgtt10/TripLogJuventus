@@ -1,11 +1,12 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TripLog.Models;
-
-namespace TripLog.Server.Test
+﻿namespace TripLog.Server.Test
 {
+    using System.IO;
+    using System.Linq;
+
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using TripLog.Models;
+
     [TestClass]
     public class PersistencyTests
     {

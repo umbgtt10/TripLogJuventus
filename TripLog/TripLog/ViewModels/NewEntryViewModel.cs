@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using TripLog.Models;
-using TripLog.Services;
-using Xamarin.Forms;
-
-namespace TripLog.ViewModels
+﻿namespace TripLog.ViewModels
 {
+    using System;
+
+    using Xamarin.Forms;
+
+    using TripLog.Models;
+    using TripLog.Services;
+
     public class NewEntryViewModel : BaseViewModel
     {
         #region Observables
