@@ -21,7 +21,7 @@
     <!-- Missing in the book, but available for download. -->               
     <!-- Get your personal API KEY by following the following guide: https://docs.microsoft.com/de-de/xamarin/android/platform/maps-and-location/maps/obtaining-a-google-maps-api-key?tabs=windows -->
     <!-- Get your personal API KEY by following the following guide: https://nearplace.com/blog/how-to-generate-google-map-api-key-for-free/ -->
-    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyANnvLUdGpffAad7EqYff5dbXcNL84s9rI" />
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="XXXXXXXXXXXXXXXXXXXXXXXXX" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
 </manifest>
