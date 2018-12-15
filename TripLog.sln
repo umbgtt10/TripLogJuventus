@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLog.Server", "TripLog.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLog.Server.Test", "TripLog.Server.Test\TripLog.Server.Test.csproj", "{0BA999D9-6AB8-4E02-AAD9-4EF76769D991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLog.Test.Acceptance", "TripLog.Test.Acceptance\TripLog.Test.Acceptance.csproj", "{0064000D-6AA8-4B04-B20B-3E0D17F77B34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripLog.Test.Acceptance", "TripLog.Test.Acceptance\TripLog.Test.Acceptance.csproj", "{0064000D-6AA8-4B04-B20B-3E0D17F77B34}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2AFD3338-6474-44B2-AE23-0109904ABCD7}"
 EndProject
@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{6388DC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{75B36E96-FF0D-4EA6-AD02-BB52448851A1}"
 	ProjectSection(SolutionItems) = preProject
-		docs\Juventus.odt = docs\Juventus.odt
+		docs\Juventus.docx = docs\Juventus.docx
 	EndProjectSection
 EndProject
 Global
