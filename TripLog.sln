@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{6388DC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{75B36E96-FF0D-4EA6-AD02-BB52448851A1}"
 	ProjectSection(SolutionItems) = preProject
-		docs\Juventus.docx = docs\Juventus.docx
+		docs\Juventus.odt = docs\Juventus.odt
 	EndProjectSection
 EndProject
 Global
