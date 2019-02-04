@@ -97,8 +97,8 @@
 
         #endregion
 
-        private GeoLocationService _locationService;
-        private TripLogDataService _tripLogDataService;
+        private readonly GeoLocationService _locationService;
+        private readonly TripLogDataService _tripLogDataService;
 
         public NewEntryViewModel(GeoLocationService locationService, TripLogDataService tripLogDataService)
         {
@@ -106,7 +106,7 @@
             _tripLogDataService = tripLogDataService;
         }
 
-        public async override void Init()
+        public override async void Init()
         {
             Date = DateTime.Today;
             Rating = 1;

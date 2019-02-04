@@ -10,30 +10,30 @@
 
     public class DbreezeTripLogPersistency : TripLogPersistency
     {
-        protected string _tableName = "TripLogTable";
+        protected string TableName = "TripLogTable";
 
-        protected DBreezeEngine _db;
-        protected DirectoryInfo _dbDirectory;
+        protected DBreezeEngine Db;
+        protected DirectoryInfo DbDirectory;
 
         public DbreezeTripLogPersistency(DirectoryInfo directory)
         {
-            _dbDirectory = directory;
-            _db = new DBreezeEngine(directory.FullName);
+            DbDirectory = directory;
+            Db = new DBreezeEngine(directory.FullName);
         }
 
         public void Setup()
         {
-            if (!_dbDirectory.Exists)
+            if (!DbDirectory.Exists)
             {
-                _dbDirectory.Create();
+                DbDirectory.Create();
             }
         }
 
         public void Add(TripLogEntry value)
         {
-            using (var transaction = _db.GetTransaction())
+            using (var transaction = Db.GetTransaction())
             {
-                transaction.Insert(_tableName, value.Id, TripLogEntry.Serialize(value));
+                transaction.Insert(TableName, value.Id, TripLogEntry.Serialize(value));
                 transaction.Commit();
             }
         }
@@ -42,9 +42,9 @@
         {
             IList<TripLogEntry> result;
 
-            using (var transaction = _db.GetTransaction())
+            using (var transaction = Db.GetTransaction())
             {
-                var select = transaction.SelectForward<string, string>(_tableName);
+                var select = transaction.SelectForward<string, string>(TableName);
                 result = select.Select(elem => TripLogEntry.Deserialize(elem.Value)).ToList();
                 transaction.Commit();
             }
@@ -54,9 +54,9 @@
 
         public void Dispose()
         {
-            if (_db != null)
+            if (Db != null)
             {
-                _db.Dispose();
+                Db.Dispose();
             }
         }
     }

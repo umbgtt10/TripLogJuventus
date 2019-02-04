@@ -31,15 +31,16 @@
         {
             var entry = JsonConvert.DeserializeObject<TripLogEntry>(serializedTripLogEntry);
 
-            TripLogEntry result = new TripLogEntry();
-
-            result.Id = entry.Id;
-            result.Title = entry.Title;
-            result.Latitude = entry.Latitude;
-            result.Longitude = entry.Longitude;
-            result.Date = entry.Date;
-            result.Rating = entry.Rating;
-            result.Notes = entry.Notes;
+            TripLogEntry result = new TripLogEntry
+            {
+                Id = entry.Id,
+                Title = entry.Title,
+                Latitude = entry.Latitude,
+                Longitude = entry.Longitude,
+                Date = entry.Date,
+                Rating = entry.Rating,
+                Notes = entry.Notes
+            };
 
             return result;
         }

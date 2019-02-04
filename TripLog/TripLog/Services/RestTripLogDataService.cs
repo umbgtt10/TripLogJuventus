@@ -9,9 +9,9 @@
 
     public class RestTripLogDataService : TripLogDataService
     {
-        protected StandardAsyncHttpClient _httpClient;
-        protected readonly Uri _baseUri;
-        protected readonly IDictionary<string, string> _headers;
+        private readonly StandardAsyncHttpClient _httpClient;
+        private readonly Uri _baseUri;
+        private readonly IDictionary<string, string> _headers;
 
         public RestTripLogDataService(StandardAsyncHttpClient httpClient, Uri baseUri)
         {

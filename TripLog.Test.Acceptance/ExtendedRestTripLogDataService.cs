@@ -17,7 +17,7 @@
 
         public async Task RemoveAll()
         {
-            var response = await _httpClient.SendRequestAsync<TripLogEntry>(_baseUri, HttpMethod.Delete, _headers);
+            var response = await HttpClient.SendRequestAsync<TripLogEntry>(BaseUri, HttpMethod.Delete, Headers);
         }
     }
 }

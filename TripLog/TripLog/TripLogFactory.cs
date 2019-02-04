@@ -15,7 +15,7 @@
         private ViewModelFactory _viewModelFactory;
         private ViewFactory _viewFactory;
         private CombinedFactory _combinedFactory;
-        private IKernel _kernel;
+        private readonly IKernel _kernel;
 
         public TripLogFactory(params NinjectModule[] platformModules)
         {

@@ -10,9 +10,9 @@
 
         public void RemoveAll()
         {
-            using (var transaction = _db.GetTransaction())
+            using (var transaction = Db.GetTransaction())
             {
-                transaction.RemoveAllKeys(_tableName, true);
+                transaction.RemoveAllKeys(TableName, true);
                 transaction.Commit();
             }
         }

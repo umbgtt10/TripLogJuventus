@@ -6,8 +6,8 @@
 
     public class ViewModelFactory
     {
-        private GeoLocationService _locationService;
-        private TripLogDataService _tripLogDataSevice;
+        private readonly GeoLocationService _locationService;
+        private readonly TripLogDataService _tripLogDataSevice;
 
         public ViewModelFactory(GeoLocationService locationService, TripLogDataService tripLogDataSevice)
         {

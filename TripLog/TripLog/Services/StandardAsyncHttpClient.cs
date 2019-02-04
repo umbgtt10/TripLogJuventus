@@ -16,7 +16,7 @@
             IDictionary<string, string> headers = null,
             object requestData = null)
         {
-            var result = default(T);
+            T result;
 
             var method = httpMethod ?? HttpMethod.Get;
 

@@ -10,7 +10,7 @@
     public partial class MainPage : ContentPage
     {
         private CombinedFactory _combinedFactory;
-        private BaseViewModel _vm;
+        private readonly BaseViewModel _vm;
 
         public MainPage(BaseViewModel viewModel)
         {
