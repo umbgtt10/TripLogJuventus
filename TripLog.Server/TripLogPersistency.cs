@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    using TripLog.Models;
+    using Models;
 
     public interface TripLogPersistency : IDisposable
     {

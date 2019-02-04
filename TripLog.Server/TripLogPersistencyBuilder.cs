@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace TripLog.Server.Controllers
+namespace TripLog.Server
 {
     public class TripLogPersistencyBuilder
     {

@@ -4,8 +4,8 @@ namespace TripLog.Test
 
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    using TripLog.Models;
-    using TripLog.ViewModels;
+    using Models;
+    using ViewModels;
 
     [TestClass]
     public class ViewModelTests

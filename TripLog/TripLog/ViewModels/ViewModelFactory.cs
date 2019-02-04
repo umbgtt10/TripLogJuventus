@@ -2,7 +2,7 @@
 {
     using System;
 
-    using TripLog.Services;
+    using Services;
 
     public class ViewModelFactory
     {

@@ -3,8 +3,8 @@
     using System;
     using System.Collections.ObjectModel;
 
-    using TripLog.Models;
-    using TripLog.Services;
+    using Models;
+    using Services;
 
     public class MainViewModel : BaseViewModel
     {

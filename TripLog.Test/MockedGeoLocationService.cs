@@ -2,8 +2,8 @@
 {
     using System.Threading.Tasks;
 
-    using TripLog.Models;
-    using TripLog.Services;
+    using Models;
+    using Services;
 
     public class MockedGeoLocationService : GeoLocationService
     {

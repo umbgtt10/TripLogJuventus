@@ -1,7 +1,7 @@
 ﻿namespace TripLog.Test.Acceptance
 {
-    using TripLog.Models;
-    using TripLog.Services;
+    using Models;
+    using Services;
 
     using System;
     using System.Net.Http;

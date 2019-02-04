@@ -4,8 +4,8 @@
 
     using Xamarin.Forms;
 
-    using TripLog.Models;
-    using TripLog.ViewModels;
+    using Models;
+    using ViewModels;
 
     public partial class MainPage : ContentPage
     {

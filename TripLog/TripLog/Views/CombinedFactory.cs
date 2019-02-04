@@ -2,8 +2,8 @@
 {
     using Xamarin.Forms;
 
-    using TripLog.Models;
-    using TripLog.ViewModels;
+    using Models;
+    using ViewModels;
 
     public class CombinedFactory
     {

@@ -4,8 +4,8 @@
 
     using Xamarin.Forms;
 
-    using TripLog.Models;
-    using TripLog.Services;
+    using Models;
+    using Services;
 
     public class NewEntryViewModel : BaseViewModel
     {

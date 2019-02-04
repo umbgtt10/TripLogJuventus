@@ -6,7 +6,7 @@
 
     using DBreeze;
 
-    using TripLog.Models;
+    using Models;
 
     public class DbreezeTripLogPersistency : TripLogPersistency
     {

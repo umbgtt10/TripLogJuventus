@@ -1,4 +1,4 @@
-﻿namespace TripLog.Server.Controllers
+﻿namespace TripLog.Server
 {
     using System.Collections.Generic;
     using System.IO;
@@ -8,8 +8,8 @@
 
     public class TripLogWebController : ApiController
     {
-        private TripLogPersistency _persistency;
-        private Environment _environment;
+        private readonly TripLogPersistency _persistency;
+        private readonly Environment _environment;
 
         public TripLogWebController()
         {

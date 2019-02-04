@@ -2,7 +2,7 @@ namespace TripLog.Test
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    using TripLog.ViewModels;
+    using ViewModels;
 
     [TestClass]
     public class ViewModelFactoryTests

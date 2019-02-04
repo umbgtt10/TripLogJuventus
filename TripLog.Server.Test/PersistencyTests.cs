@@ -5,7 +5,7 @@
 
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    using TripLog.Models;
+    using Models;
 
     [TestClass]
     public class PersistencyTests

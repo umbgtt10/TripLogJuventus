@@ -2,7 +2,7 @@
 {
     using System;
 
-    using TripLog.Models;
+    using Models;
 
     public class DetailViewModel : BaseViewModel
     {

@@ -6,8 +6,8 @@ namespace TripLog.Test.Acceptance
 
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    using TripLog.Models;
-    using TripLog.Services;
+    using Models;
+    using Services;
 
     [TestClass]
     public class RestTripLogDataServiceTests
