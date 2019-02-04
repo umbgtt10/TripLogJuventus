@@ -25,14 +25,14 @@
 
         #endregion
 
-        private TripLogDataService _tripLogDataService;
+        private readonly TripLogDataService _tripLogDataService;
 
         public MainViewModel(TripLogDataService tripLogDataService)
         {
             _tripLogDataService = tripLogDataService;            
         }
 
-        public async override void Init()
+        public override async void Init()
         {
             LogEntries = new ObservableCollection<TripLogEntry>(
               await _tripLogDataService.ReadAllEntriesAsync());

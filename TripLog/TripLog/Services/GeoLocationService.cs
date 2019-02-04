@@ -2,7 +2,7 @@
 {
     using System.Threading.Tasks;
 
-    using TripLog.Models;
+    using Models;
 
     public interface GeoLocationService
     {
