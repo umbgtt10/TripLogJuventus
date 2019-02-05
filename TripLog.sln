@@ -32,11 +32,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{75B36E96-F
 		docs\Course.odt = docs\Course.odt
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auth", "auth", "{1877CD38-A023-42DD-80A4-060DAFCE7047}"
-	ProjectSection(SolutionItems) = preProject
-		auth\api-5065662821759009978-800731-63e8fc94d3b7.json = auth\api-5065662821759009978-800731-63e8fc94d3b7.json
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
